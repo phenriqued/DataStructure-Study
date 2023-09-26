@@ -32,7 +32,7 @@ public class SequentialSearch {
         }else{
             System.out.println("Object does not exist! ");
         }
-        
+
         long endTime = System.currentTimeMillis();
         System.out.println("Big O Notation O(n): "+ ((endTime - initialTime)) + " milliseconds");
     }
