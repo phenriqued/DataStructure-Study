@@ -12,11 +12,11 @@ public class Main {
             n[i] = i;
         }
 
-        SequentialSearch.sequentialSearch(n, 999999);
+        SequentialSearch.sequentialSearch(n, -1);
 
         System.out.println("\n_________\n");
 
-        BinarySearch.binarySearch(n, 999999);
+        BinarySearch.binarySearch(n, -1);
 
 
     }
