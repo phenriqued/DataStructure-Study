@@ -1,7 +1,4 @@
-package BinarySearch;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package MainApplication.BinarySearch;
 
 /*
 Pesquisa Binária é utilizada para buscar um elemento em um Objeto de armazenamento, seja este uma lista ou um Array.

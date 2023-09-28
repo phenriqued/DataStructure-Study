@@ -1,4 +1,4 @@
-package SequentialSearch;
+package MainApplication.SequentialSearch;
 
 import java.util.Objects;
 
