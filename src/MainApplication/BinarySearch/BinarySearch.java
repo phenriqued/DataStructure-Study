@@ -18,7 +18,7 @@ public class BinarySearch {
 
     public static void binarySearch(Integer objs[], Integer searchObj){
 
-        long initialTime = System.currentTimeMillis();
+        Integer count = 0;
 
         Integer intial = 0;
         Integer end = objs.length -1;
@@ -36,6 +36,7 @@ public class BinarySearch {
             }else{
                 intial = half+1;
             }
+            count++;
         }
 
         if(found){
@@ -44,8 +45,8 @@ public class BinarySearch {
             System.out.println("Object does not exist! ");
         }
 
-        long endTime = System.currentTimeMillis();
-        System.out.println("Big O Notation O(n): "+ ((endTime - initialTime)) + " milliseconds");
+
+        System.out.println("Big O Notation O(LogN): "+ count);
 
     }
 
