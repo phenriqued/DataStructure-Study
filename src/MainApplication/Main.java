@@ -1,22 +1,21 @@
 package MainApplication;
 
 import MainApplication.BubbleSort.BubbleSort;
+import MainApplication.InsertionSort.InsertionSort;
 
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+
         Integer[] myArray = new Integer[10];
-        Integer[] otherArray = new Integer[10];
 
         for(int i=0; i<myArray.length;i++){
-            myArray[i] = (int) (Math.random()*10);
-            otherArray[i] = (int) (Math.random()*10);
+            myArray[i] = (int) (Math.random()*100);
             System.out.print(myArray[i] + " - ");
         }
 
-        System.out.println("");
-        BubbleSort.bubbleSort(myArray);
+        System.out.println("\nInsertion Sort");
+        InsertionSort.insertionSort(myArray);
 
         for (Integer x: myArray) {
             System.out.print(x+ " - ");

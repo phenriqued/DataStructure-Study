@@ -22,7 +22,7 @@ public class BubbleSort {
                 count++;
             }
         }
-        System.out.println(count);
+        System.out.println("Notation Big 0(N^2)\nSteps for ordering the vector:"+count);
         return collections;
     }
 
