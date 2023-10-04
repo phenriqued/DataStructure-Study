@@ -1,7 +1,6 @@
 package MainApplication;
 
-import MainApplication.BubbleSort.BubbleSort;
-import MainApplication.InsertionSort.InsertionSort;
+import MainApplication.SelectionSort.SelectionSort;
 
 
 public class Main {
@@ -10,12 +9,12 @@ public class Main {
         Integer[] myArray = new Integer[10];
 
         for(int i=0; i<myArray.length;i++){
-            myArray[i] = (int) (Math.random()*100);
+            myArray[i] = (int) (Math.random()*10);
             System.out.print(myArray[i] + " - ");
         }
 
-        System.out.println("\nInsertion Sort");
-        InsertionSort.insertionSort(myArray);
+        System.out.println("\nSelection Sort");
+        SelectionSort.selectionSort(myArray);
 
         for (Integer x: myArray) {
             System.out.print(x+ " - ");
